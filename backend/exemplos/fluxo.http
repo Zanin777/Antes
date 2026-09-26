@@ -1,0 +1,116 @@
+@baseUrl = http://127.0.0.1:8080
+@decisaoId = 1
+@experimentoId = 1
+# Substitua os IDs pelos retornados e escolha a data real de início.
+@inicio = 2026-09-26
+
+### 1. Catálogo
+GET {{baseUrl}}/templates
+
+### 2. Decisão
+POST {{baseUrl}}/decisoes
+Content-Type: application/json
+
+{
+  "titulo": "Quero aprender guitarra?",
+  "categoria": "HOBBY",
+  "motivacao": "Experimentar antes de pagar aulas",
+  "experienciaAnterior": "NENHUMA",
+  "participanteCodigo": "P001"
+}
+
+### 3. Experimento e cópia do template
+POST {{baseUrl}}/experimentos
+Content-Type: application/json
+
+{
+  "decisaoId": {{decisaoId}},
+  "templateCodigo": "H01",
+  "templateVersao": 1,
+  "dataInicio": "{{inicio}}",
+  "materialProvedorFormato": "Guitarra emprestada e material introdutório"
+}
+
+### 4. Pré-teste (somente uma vez)
+POST {{baseUrl}}/experimentos/{{experimentoId}}/pre-teste
+Content-Type: application/json
+
+{
+  "sessoesEsperadas": 3,
+  "tempoEsperadoMinutos": 90,
+  "gastoEsperado": 0.00,
+  "dificuldadeEsperada": 2,
+  "satisfacaoEsperada": 4,
+  "obstaculoPrincipalEsperado": "O1",
+  "comoObstaculoApareceria": "Conciliar com as aulas da faculdade",
+  "segurancaDecidirAntes": 4,
+  "intencaoAntes": "CONTINUAR"
+}
+
+### 5. Ajuste opcional antes do primeiro registro (não altera o pré)
+PATCH {{baseUrl}}/experimentos/{{experimentoId}}
+Content-Type: application/json
+
+{
+  "descricaoFinalEditada": "Experimentar três práticas curtas de guitarra nos sete dias.",
+  "materialProvedorFormato": "Guitarra emprestada",
+  "dataInicio": "{{inicio}}"
+}
+
+### 6. Diário opcional — data dentro da janela, nunca futura
+POST {{baseUrl}}/experimentos/{{experimentoId}}/registros-sessao
+Content-Type: application/json
+
+{
+  "data": "{{inicio}}",
+  "minutosDedicados": 15,
+  "gastoAdicional": 0.00,
+  "notaOpcional": "Separei e organizei o instrumento; ainda não pratiquei."
+}
+
+### 7a. Pós de quem praticou — use 7a OU 7b por experimento
+POST {{baseUrl}}/experimentos/{{experimentoId}}/pos-teste
+Content-Type: application/json
+
+{
+  "situacaoExperimento": "B",
+  "sessoesRealizadas": 2,
+  "tempoRealizadoMinutos": 110,
+  "custoRealizado": 0.00,
+  "dificuldadePercebida": 4,
+  "satisfacaoPercebida": 4,
+  "obstaculoEncontrado": "O4",
+  "relatoExemplo": "Trocar entre acordes exigiu mais tentativas.",
+  "segurancaDecidirDepois": 7,
+  "proximoPasso": "ADAPTAR",
+  "oQuePesouNaEscolha": "Gostei, mas preciso de sessões mais curtas.",
+  "contribuicaoPercebidaApp": "A comparação ajudou a perceber o esforço necessário.",
+  "contextoMudancas": "Não houve."
+}
+
+### 7b. Alternativa para quem não iniciou (crie outro experimento se já enviou 7a)
+POST {{baseUrl}}/experimentos/{{experimentoId}}/pos-teste
+Content-Type: application/json
+
+{
+  "situacaoExperimento": "D",
+  "motivoSeInterrompeuOuNaoIniciou": "Preparei o material, mas não consegui praticar.",
+  "sessoesRealizadas": 0,
+  "tempoRealizadoMinutos": 15,
+  "custoRealizado": 0.00,
+  "dificuldadePercebida": "NAO_SE_APLICA",
+  "satisfacaoPercebida": "NAO_SE_APLICA",
+  "obstaculoEncontrado": "O1",
+  "relatoExemplo": "As provas ocuparam os dias disponíveis.",
+  "segurancaDecidirDepois": 5,
+  "proximoPasso": "TESTAR_DE_NOVO",
+  "oQuePesouNaEscolha": "Ainda quero ter contato com a prática.",
+  "contribuicaoPercebidaApp": "Não fez diferença nesta semana.",
+  "contextoMudancas": "Mudança na agenda de provas."
+}
+
+### 8. Comparação derivada
+GET {{baseUrl}}/experimentos/{{experimentoId}}/comparacao
+
+### 9. Experimentos da decisão
+GET {{baseUrl}}/decisoes/{{decisaoId}}/experimentos

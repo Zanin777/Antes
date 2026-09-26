@@ -1,0 +1,17 @@
+# Configurações locais de hospedagem e credenciais
+.openai/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+
+# Dependências e arquivos temporários
+node_modules/
+coverage/
+*.log
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+
+# dist/ contém o código-fonte deste protótipo e deve ser versionado.

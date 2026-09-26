@@ -1,0 +1,145 @@
+ANTES — TEMPLATES DE EXPERIMENTO, V1
+Versão do documento: 1.0 | 26/09/2026
+
+FINALIDADE
+
+Experimentar uma versão pequena de um hobby ou curso para comparar expectativas com a experiência e apoiar uma decisão pessoal. O resultado pode ser continuar, adaptar, testar novamente ou adiar/desistir. Continuar não é, por si só, um resultado melhor.
+
+REGRAS COMUNS
+
+1. A duração inicial de todos os exemplos é de sete dias consecutivos. A pessoa informa apenas a data de início, a quantidade de sessões e a duração estimada. Não há agenda semanal nem cálculo automático de conflitos.
+2. Cada template é um conjunto de dados: código, versão, categoria, título, pergunta da decisão, descrição, duração em dias, quantidade de sessões, minutos sugeridos por sessão, recursos, atividades, registro solicitado e campos editáveis.
+3. As durações são sugestões para a prática principal. No pré-teste, a pessoa estima o tempo total incluindo preparação, deslocamento, prática e organização posterior.
+4. Quantidade de sessões, duração, recursos e atividades podem ser ajustados antes do pré-teste. A versão escolhida fica vinculada ao experimento. Não alterar retroativamente o plano ou as expectativas depois de observar o resultado.
+5. Não exigir compra, assinatura ou empréstimo disponível como condição implícita. Confirmar os recursos antes de começar. Se uma alternativa mudar a atividade testada, registrar isso. Testar leitura digital, por exemplo, não equivale a testar a experiência de ler um livro físico.
+6. Registrar o que foi realizado e o que não foi. Não começar ou interromper também gera um pós-teste útil; não deve excluir automaticamente a pessoa da avaliação.
+7. Não é um curso completo nem uma avaliação de competência. O teste não permite concluir que alguém dominou o assunto ou manterá a atividade no longo prazo.
+8. Neste protocolo, concluir o registro não depende de nota em quiz, cronômetro obrigatório ou intervalo obrigatório de 24 horas. A experiência é autorrelatada. Flashcards e quizzes do protótipo não compõem a medição da v1.
+
+============================================================
+CATEGORIA: HOBBY
+============================================================
+
+H01 — EXPERIMENTAR GUITARRA OU VIOLÃO
+
+Pergunta da decisão: Quero reservar tempo para aprender este instrumento?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 20 minutos de prática.
+Recursos: instrumento próprio, emprestado ou acesso combinado; material introdutório. Se houver aluguel ou transporte, incluir na estimativa de custo.
+Atividades:
+  Sessão 1: conhecer as partes do instrumento e experimentar produzir um som limpo em uma corda.
+  Sessão 2: praticar duas posições simples de notas ou acordes com um material escolhido.
+  Sessão 3: repetir um pequeno trecho ou exercício e observar a vontade de continuar praticando.
+Registro solicitado: tempo total, gasto, dificuldade percebida, satisfação e obstáculo principal. Não medir aprovação por número de acordes aprendidos.
+Campos editáveis: instrumento, material, exercícios, quantidade e duração das sessões, recursos e data inicial.
+Limite da experiência: observar a relação com a prática inicial; não estimar domínio do instrumento em sete dias.
+
+H02 — EXPERIMENTAR DESENHO DE OBSERVAÇÃO
+
+Pergunta da decisão: Gosto do processo de desenhar o suficiente para mantê-lo como hobby?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 20 minutos.
+Recursos: papel, lápis e objetos disponíveis em casa.
+Atividades:
+  Sessão 1: desenhar um objeto simples observando formas gerais.
+  Sessão 2: desenhar outro objeto e experimentar luz e sombra.
+  Sessão 3: escolher livremente um objeto e repetir a prática.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Uma foto do desenho pode ser guardada pela própria pessoa, mas não é obrigatória para participar.
+Campos editáveis: objetos, técnica inicial, materiais, quantidade e duração das sessões e data inicial.
+Limite da experiência: avaliar interesse pelo processo, sem julgar qualidade artística.
+
+H03 — EXPERIMENTAR LEITURA POR PRAZER
+
+Pergunta da decisão: Quero reservar parte do meu tempo livre para ler por prazer?
+Duração: 7 dias.
+Plano sugerido: 4 sessões de 15 minutos.
+Recursos: livro já disponível, empréstimo de biblioteca ou texto disponibilizado legalmente sem custo.
+Atividades:
+  Antes de começar: escolher um texto e manter essa escolha registrada.
+  Sessões 1 e 2: ler um trecho e observar interesse e esforço para começar.
+  Sessões 3 e 4: continuar a leitura e observar se deseja retomar espontaneamente.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Quantidade de páginas é opcional e não serve para comparar pessoas ou livros diferentes.
+Campos editáveis: obra, formato, quantidade e duração das sessões e data inicial.
+Limite da experiência: a avaliação se refere ao texto e formato usados; não a toda forma de leitura.
+
+H04 — EXPERIMENTAR FOTOGRAFIA COM CELULAR
+
+Pergunta da decisão: Gosto de observar, fotografar e selecionar imagens como atividade de lazer?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 20 minutos.
+Recursos: celular já disponível e objetos ou ambientes acessíveis.
+Atividades:
+  Sessão 1: fotografar o mesmo objeto de diferentes posições.
+  Sessão 2: experimentar duas condições de iluminação disponíveis.
+  Sessão 3: selecionar algumas imagens e fazer ajustes simples no editor do celular, se houver interesse.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Não é necessário enviar fotos pessoais ao aplicativo.
+Campos editáveis: temas das imagens, locais, editor, quantidade e duração das sessões e data inicial.
+Limite da experiência: testar a atividade com celular; não concluir que comprar uma câmera produzirá a mesma experiência.
+
+============================================================
+CATEGORIA: CURSO
+============================================================
+
+C01 — EXPERIMENTAR UM CURSO INTRODUTÓRIO DE INGLÊS
+
+Pergunta da decisão: O conteúdo e o formato deste curso de inglês fazem sentido para mim agora?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 25 minutos.
+Recursos: aula demonstrativa ou unidade introdutória acessível; caderno ou editor de texto.
+Atividades:
+  Sessão 1: assistir ou ler uma introdução sobre apresentações pessoais.
+  Sessão 2: realizar os exercícios introdutórios propostos pelo material.
+  Sessão 3: revisar o conteúdo e produzir uma apresentação pessoal curta.
+Registro solicitado: tempo total incluindo acesso à plataforma e revisão, gasto, dificuldade, satisfação e obstáculo principal.
+Campos editáveis: provedor/material, nível, atividade, formato, quantidade e duração das sessões e data inicial.
+Limite da experiência: avaliar a amostra escolhida; não prever fluência ou toda a qualidade do curso.
+
+C02 — EXPERIMENTAR UM CURSO DE JAVASCRIPT
+
+Pergunta da decisão: Quero continuar estudando programação com este material e esta carga de dedicação?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 30 minutos.
+Recursos: computador, navegador e material introdutório; registrar o tempo de preparação do ambiente, se houver.
+Atividades:
+  Sessão 1: conhecer variáveis e executar um exemplo simples.
+  Sessão 2: modificar o exemplo com uma condição ou função.
+  Sessão 3: produzir um pequeno programa relacionado ao próprio interesse.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Anotar separadamente se o maior obstáculo foi conteúdo, ferramenta ou acesso ao computador.
+Campos editáveis: material, projeto, ambiente, nível inicial, quantidade e duração das sessões e data inicial.
+Limite da experiência: não comparar aprendizado entre iniciantes e pessoas com experiência sem registrar essa diferença.
+
+C03 — EXPERIMENTAR UM CURSO DE PLANILHAS
+
+Pergunta da decisão: Este curso de planilhas atende ao que quero aprender e consigo dedicar tempo a ele?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 25 minutos.
+Recursos: ferramenta de planilha já acessível e material introdutório compatível.
+Atividades:
+  Sessão 1: criar uma tabela pequena com dados fictícios.
+  Sessão 2: aplicar fórmulas de soma e média.
+  Sessão 3: organizar os dados e produzir um gráfico simples, se previsto no material.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Não utilizar dados pessoais ou financeiros reais para realizar o exercício.
+Campos editáveis: ferramenta, material, tema da tabela, quantidade e duração das sessões e data inicial.
+Limite da experiência: avaliar a amostra do curso e a ferramenta usada; não afirmar domínio profissional.
+
+C04 — EXPERIMENTAR UM CURSO DE ESCRITA CRIATIVA
+
+Pergunta da decisão: Quero continuar aprendendo escrita com este formato de aula e exercícios?
+Duração: 7 dias.
+Plano sugerido: 3 sessões de 25 minutos.
+Recursos: aula ou texto introdutório, papel ou editor de texto.
+Atividades:
+  Sessão 1: estudar uma orientação sobre personagem ou cenário e produzir um parágrafo.
+  Sessão 2: escrever uma cena curta seguindo um exercício do material.
+  Sessão 3: revisar a cena e refletir sobre o processo de estudar e escrever.
+Registro solicitado: tempo total, gasto, dificuldade, satisfação e obstáculo principal. Não avaliar a pessoa pela qualidade literária do texto.
+Campos editáveis: material, gênero, exercícios, quantidade e duração das sessões e data inicial.
+Limite da experiência: avaliar a relação com a amostra de curso, não talento ou desempenho literário.
+
+NOTA SOBRE AS CATEGORIAS
+
+Hobby e curso podem tratar do mesmo assunto. Classificar pelo objeto da decisão: “quero desenhar por lazer” é hobby; “quero me matricular neste curso de desenho” é curso. Registrar o material/provedor quando a decisão envolve um curso específico.
+
+ANTES DE IMPLEMENTAR
+
+Revisar a clareza dos templates com possíveis participantes e o orientador. Os oito exemplos são propostas de protocolo, não instrumentos já validados. O aplicativo deve armazenar os campos como dados e manter o código e a versão do template usado em cada experimento.

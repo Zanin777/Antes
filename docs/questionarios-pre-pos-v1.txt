@@ -1,0 +1,272 @@
+ANTES — INSTRUMENTO PAREADO PRÉ/PÓS, V1
+Versão do documento: 1.1 | 26/09/2026 — PRE08 obrigatório e modelo do backend v1
+
+OBJETIVO
+
+Registrar a expectativa antes de um experimento e a experiência depois dele, usando as mesmas variáveis, unidades e escalas. O questionário é uma proposta construída para este projeto; não é uma escala validada.
+
+O estudo pode descrever diferenças entre previsão e autorrelato. Sem desenho adequado, não permite afirmar que o aplicativo causou uma decisão melhor, mudança de comportamento ou ganho de aprendizagem.
+
+============================================================
+1. IDENTIFICAÇÃO E CONTEXTO
+============================================================
+
+Registrar uma vez e vincular aos dois formulários:
+
+- Código do participante, por exemplo P001, sem depender do nome no conjunto de análise.
+- Identificador da decisão e do experimento.
+- Título da decisão; categoria hobby ou curso.
+- Código e versão do template e descrição final após adaptações.
+- Material/provedor/formato escolhido, quando aplicável.
+- Data de início e data de encerramento previsto: janela de sete dias.
+- Data/hora da resposta pré e data/hora da resposta pós.
+- Experiência anterior na atividade: nenhuma; contato ocasional; prática/estudo anterior regular.
+- Motivação: “Por que você está considerando essa atividade ou curso?” (texto).
+
+O pré-teste deve ser respondido depois de escolher e adaptar o template, mas antes de começar a prática. O pós-teste deve ser solicitado ao término da mesma janela, inclusive se a pessoa não começou, fez menos sessões ou interrompeu.
+
+Se responder depois do prazo, considerar apenas o que ocorreu na janela definida e registrar o atraso. Se o teste for encerrado antes, registrar a data efetiva e o motivo; a comparação de totais continua se referindo ao plano original, com essa diferença de duração explicitada.
+
+============================================================
+2. INSTRUÇÃO AO PARTICIPANTE
+============================================================
+
+“Queremos entender como você imaginou esta experiência e como ela aconteceu. Não há uma escolha final certa ou errada. Fazer menos sessões, encontrar dificuldades ou decidir não continuar também são resultados úteis. Responda sobre este experimento, não sobre o tempo ou custo de um curso completo.”
+
+Definições usadas nos dois formulários:
+
+- Sessão: um período separado dedicado à atividade. Uma sessão interrompida conta uma vez se a atividade chegou a ser iniciada; apenas abrir o aplicativo ou preparar materiais não conta como sessão de prática.
+- Tempo total: soma de preparação, deslocamento necessário, prática/estudo e organização posterior, sem contar o tempo gasto preenchendo estes questionários.
+- Gasto do experimento: dinheiro desembolsado por causa do teste, incluindo transporte, acesso e materiais. Não incluir o preço de itens já possuídos. Um item comprado para o teste entra pelo valor pago, mesmo que continue útil depois.
+- Dificuldade: esforço percebido para realizar a atividade, e não o número de acertos em um exercício.
+- Satisfação: como a pessoa se sentiu com a experiência realizada.
+
+============================================================
+3. QUESTIONÁRIO PRÉ-TESTE — EXPECTATIVA
+============================================================
+
+PRE01 — SESSÕES ESPERADAS
+“Nesses sete dias, quantas sessões você espera realizar?”
+Resposta: número inteiro maior ou igual a zero.
+Unidade: sessões na janela do experimento.
+
+PRE02 — TEMPO ESPERADO
+“Quanto tempo total, em minutos, você espera dedicar a este experimento nesses sete dias? Inclua preparação, deslocamento, prática e organização posterior.”
+Resposta: número inteiro maior ou igual a zero.
+Unidade: minutos totais na janela do experimento.
+
+PRE03 — GASTO ESPERADO
+“Quanto você espera desembolsar, no total, para realizar este experimento nesses sete dias?”
+Resposta: valor em reais maior ou igual a zero; até duas casas decimais.
+Unidade: R$ por experimento.
+
+PRE04 — DIFICULDADE ESPERADA
+“Quão difícil você espera que seja realizar a atividade proposta?”
+Resposta: escala D, de 1 a 5, apresentada integralmente abaixo.
+
+PRE05 — SATISFAÇÃO ESPERADA
+“Quão satisfeito você espera ficar com a experiência de realizar essa atividade?”
+Resposta: escala S, de 1 a 5, apresentada integralmente abaixo.
+
+PRE06 — OBSTÁCULO PRINCIPAL ESPERADO
+“Qual você acredita que será o principal obstáculo para realizar este experimento?”
+Resposta: uma categoria da lista O. Se escolher “Outro”, descrever.
+Campo complementar opcional: “Como você imagina que esse obstáculo vai aparecer?”
+
+PRE07 — SEGURANÇA PARA DECIDIR (COMPLEMENTAR)
+“Neste momento, quão seguro você se sente para decidir se quer continuar ou não com essa atividade ou curso?”
+Resposta: inteiro de 0 a 10, sendo 0 = nada seguro e 10 = totalmente seguro.
+Observação: mede percepção de segurança, não se a decisão está correta.
+
+PRE08 — INTENÇÃO ANTES DO EXPERIMENTO (OBRIGATÓRIO)
+“Antes de realizar esta experiência, qual é sua intenção?”
+Resposta única, com as mesmas alternativas de POS08:
+  A. Continuar com a atividade ou curso nas condições propostas. (CONTINUAR)
+  B. Continuar, mas adaptar tempo, custo, material ou formato. (ADAPTAR)
+  C. Fazer outro experimento antes de decidir. (TESTAR_DE_NOVO)
+  D. Adiar ou não continuar por enquanto. (ADIAR)
+  E. Ainda não sei. (NAO_SEI)
+Este item registra a intenção atual; não atribui uma escolha correta ao participante.
+
+============================================================
+4. QUESTIONÁRIO PÓS-TESTE — EXPERIÊNCIA
+============================================================
+
+POS00 — SITUAÇÃO DO EXPERIMENTO
+“O que aconteceu com o experimento nesta janela?”
+Resposta única:
+  A. Realizei a quantidade de sessões que planejei, ou mais.
+  B. Realizei parte das sessões e encerrei a janela com menos que o planejado.
+  C. Comecei, mas decidi interromper antes do fim da janela.
+  D. Não cheguei a iniciar a atividade.
+Se C ou D: “Qual foi o principal motivo?” (texto obrigatório).
+Se C: pode registrar também a data em que interrompeu (opcional).
+
+POS01 — SESSÕES REALIZADAS
+“Nesses sete dias, quantas sessões você realizou?”
+Resposta: número inteiro maior ou igual a zero.
+Mesma unidade e definição de PRE01.
+
+POS02 — TEMPO REALIZADO
+“Quanto tempo total, em minutos, você dedicou a este experimento nesses sete dias? Inclua preparação, deslocamento, prática e organização posterior.”
+Resposta: número inteiro maior ou igual a zero.
+Mesma unidade e definição de PRE02.
+Se não iniciou a atividade, pode haver tempo de preparação; informar esse tempo e explicar no motivo.
+
+POS03 — GASTO REALIZADO
+“Quanto você desembolsou, no total, para realizar este experimento nesses sete dias?”
+Resposta: valor em reais maior ou igual a zero; até duas casas decimais.
+Mesma unidade e definição de PRE03.
+Pode haver gasto mesmo sem iniciar a prática.
+
+POS04 — DIFICULDADE PERCEBIDA
+“Quão difícil foi realizar a atividade proposta nas sessões que você efetivamente fez?”
+Resposta: escala D, idêntica à do pré-teste.
+Se não realizou nenhuma sessão: “Não se aplica — não iniciei a atividade”. Não transformar essa resposta em zero.
+
+POS05 — SATISFAÇÃO PERCEBIDA
+“Quão satisfeito você ficou com a experiência de realizar essa atividade nas sessões que efetivamente fez?”
+Resposta: escala S, idêntica à do pré-teste.
+Se não realizou nenhuma sessão: “Não se aplica — não iniciei a atividade”. Não transformar essa resposta em zero.
+
+POS06 — OBSTÁCULO PRINCIPAL ENCONTRADO
+“Qual foi o principal obstáculo que você encontrou para realizar este experimento?”
+Resposta: uma categoria da lista O, idêntica à do pré-teste. Se escolher “Outro”, descrever.
+Campo complementar: “Conte um exemplo de como isso aconteceu.”
+Responder mesmo que não tenha iniciado a prática.
+
+POS07 — SEGURANÇA PARA DECIDIR (COMPLEMENTAR)
+“Neste momento, quão seguro você se sente para decidir se quer continuar ou não com essa atividade ou curso?”
+Resposta: inteiro de 0 a 10, sendo 0 = nada seguro e 10 = totalmente seguro.
+Mesma redação e âncoras de PRE07.
+
+POS08 — PRÓXIMO PASSO
+“Depois desta experiência, qual é sua intenção?”
+Resposta única:
+  A. Continuar com a atividade ou curso nas condições testadas.
+  B. Continuar, mas adaptar tempo, custo, material ou formato.
+  C. Fazer outro experimento antes de decidir.
+  D. Adiar ou não continuar por enquanto.
+  E. Ainda não sei.
+Complemento: “O que mais pesou nessa escolha?” (texto).
+
+POS09 — CONTRIBUIÇÃO PERCEBIDA DO APLICATIVO
+“Que parte do aplicativo ajudou, atrapalhou ou não fez diferença na sua decisão?”
+Resposta: texto. Incluir no enunciado: “Pode responder que não ajudou.”
+
+POS10 — CONTEXTO E MUDANÇAS
+“Houve algum imprevisto, ajuda externa ou mudança de plano/material que influenciou o teste? Descreva, ou escreva ‘não houve’.”
+Resposta: texto.
+
+============================================================
+5. ESCALAS E CATEGORIAS — IGUAIS NO PRÉ E NO PÓS
+============================================================
+
+Escala D — Dificuldade
+1 = Muito fácil
+2 = Fácil
+3 = Nem fácil nem difícil
+4 = Difícil
+5 = Muito difícil
+
+Escala S — Satisfação
+1 = Muito insatisfeito
+2 = Insatisfeito
+3 = Nem satisfeito nem insatisfeito
+4 = Satisfeito
+5 = Muito satisfeito
+
+Lista O — Obstáculo principal
+O0 = Nenhum obstáculo relevante
+O1 = Falta de tempo ou outros compromissos
+O2 = Custo
+O3 = Falta de material, equipamento ou local adequado
+O4 = Dificuldade com a atividade ou o conteúdo
+O5 = Cansaço ou falta de energia
+O6 = Desinteresse ou dificuldade para começar
+O7 = Deslocamento ou acesso ao local/plataforma
+O8 = Imprevisto pessoal
+O9 = Outro, com descrição
+
+============================================================
+6. COMPARAÇÃO DIRETA
+============================================================
+
+Pares obrigatórios:
+PRE01 ↔ POS01: sessões esperadas e realizadas.
+PRE02 ↔ POS02: minutos totais esperados e realizados.
+PRE03 ↔ POS03: gasto esperado e realizado em reais.
+PRE04 ↔ POS04: dificuldade esperada e percebida na mesma escala.
+PRE05 ↔ POS05: satisfação esperada e percebida na mesma escala.
+PRE06 ↔ POS06: obstáculo principal esperado e encontrado.
+PRE08 ↔ POS08: intenção antes e depois, preservando as duas categorias e indicando se mudou. Mudança não significa automaticamente melhora.
+
+Par complementar:
+PRE07 ↔ POS07: segurança percebida para decidir antes e depois. Este par mede mudança de percepção; não é previsão versus realização.
+
+Apresentação mínima para cada participante:
+
+Variável                | Expectativa | Experiência | Leitura descritiva
+Sessões                 | 3           | 2           | Uma sessão a menos
+Tempo total             | 90 min      | 110 min     | 20 minutos a mais
+Gasto                   | R$ 0,00     | R$ 0,00     | Igual ao previsto
+Dificuldade             | 2 — Fácil   | 4 — Difícil | Categoria mais difícil
+Satisfação              | 4 — Satisf. | 4 — Satisf. | Mesma categoria
+Obstáculo principal     | Falta tempo | Conteúdo    | Obstáculo diferente
+
+Exemplo ilustrativo, não um resultado de pesquisa. É possível fazer menos sessões e gastar mais tempo no total.
+
+Regras de leitura:
+- Para sessões, tempo e gasto, mostrar diferença absoluta: realizado menos esperado. Diferença positiva ou negativa não significa automaticamente melhora ou piora.
+- Não calcular diferença percentual quando a expectativa for zero. Preferir unidades originais na primeira versão.
+- Dificuldade e satisfação são respostas ordinais. Apresentar as categorias lado a lado e transições para categoria menor, igual ou maior; não interpretar uma mudança de dois pontos como “duas vezes mais difícil”.
+- Para obstáculo, mostrar a categoria prevista e a encontrada, acompanhadas do relato.
+- Se uma resposta não se aplica, não foi fornecida ou o pós-teste não foi respondido, conservar essa condição. Ausência de dado não é zero.
+- Se não iniciou a atividade, comparar tempo, gasto, sessões e obstáculo; não comparar dificuldade e satisfação da prática.
+- Conservar a expectativa original. Mudanças durante o teste entram em POS10 e não reescrevem o pré-teste.
+- Coletar primeiro o pós-teste; mostrar a comparação com o pré depois, para reduzir a influência da previsão sobre a resposta da experiência.
+
+============================================================
+7. REGISTRO BREVE DURANTE O EXPERIMENTO
+============================================================
+
+Para reduzir dependência da memória ao final, oferecer uma anotação simples por sessão:
+  Data; minutos dedicados; gasto adicional do teste; breve nota opcional.
+
+Permitir registrar tempo/gasto de preparação sem sessão iniciada. No pós, apresentar os totais dos registros para conferência e permitir correção, mantendo o que foi informado originalmente. Não expor as previsões nessa conferência.
+
+Essas anotações apoiam o autorrelato, mas não comprovam a execução. Não exigem uma tabela de rotina semanal nem acesso ao calendário.
+
+============================================================
+8. IMPLICAÇÕES PARA O MODELO MÍNIMO
+============================================================
+
+O backend v1 desdobra o modelo conceitual anterior em sete entidades:
+
+Template: catálogo de código/versão, categoria, pergunta e proposta de experimento. Sem edição pelo participante.
+Decisao: título, categoria, motivação, experiência anterior e código do participante.
+Experimento: referência à decisão; cópia de todos os campos do template; plano adaptado, material, janela de sete dias e situação.
+PreTeste: relação 1:1 com Experimento; PRE01–08 estruturados e imutáveis após envio. Guarda também o plano e as datas existentes no momento da resposta.
+PosTeste: relação 1:1 com Experimento; POS00–10, incluindo motivo em C/D e ausência explícita em D.
+RegistroSessao: zero ou mais anotações de tempo/gasto, inclusive preparação. A quantidade de anotações não equivale necessariamente à quantidade de sessões realizadas.
+Comparacao: relação 1:1 com Experimento; calculada e gravada junto com o pós-teste, sem edição manual.
+
+Ajustes no plano são permitidos somente com Experimento PLANEJADO. Não mudam o pré-teste nem o snapshot do template. Após o primeiro registro de diário, o plano fica bloqueado. O pós-teste encerra o experimento, inclusive na situação D; não é possível encerrá-lo sem responder ao pós.
+
+NAO_SE_APLICA é um valor explícito no tipo das avaliações e no banco, nunca zero. No JSON das avaliações são aceitos apenas inteiros de 1 a 5 ou a string NAO_SE_APLICA. A/B/C exigem pelo menos uma sessão e notas numéricas. D exige zero sessões e as duas avaliações NAO_SE_APLICA, permitindo tempo e custo de preparação.
+
+Não há entidade de rotina semanal completa. A v1 usa autorrelato, sem comprovação automática de prática. As datas delimitam a janela, mas o servidor não obriga a aguardar sete dias para enviar o pós. O instante da resposta fica registrado para a análise.
+
+============================================================
+9. PONTOS A FECHAR COM O ORIENTADOR ANTES DA COLETA
+============================================================
+
+1. Pergunta de pesquisa, unidade de análise e desenho aceito: estudo exploratório, estudo de caso qualitativo ou outra abordagem.
+2. Quantidade de participantes viável, justificativa dessa quantidade e o que fazer se houver poucos pós-testes respondidos. Não existe um n automaticamente suficiente definido por este documento.
+3. Uma decisão por participante nesta primeira avaliação, para evitar tratar vários testes da mesma pessoa como observações independentes sem planejamento.
+4. Testar a compreensão dos enunciados com algumas pessoas antes da coleta principal; registrar versões e congelar o instrumento depois dos ajustes.
+5. Como analisar desistências, experiências prévias diferentes e diferentes categorias/templates. Não misturar todos os resultados como se as atividades fossem equivalentes.
+6. Procedimento de participação, informação sobre uso dos dados e exigências institucionais aplicáveis à pesquisa, conforme orientação da faculdade.
+7. Separar eventuais participantes do piloto daqueles da análise principal, ou justificar explicitamente sua inclusão.
+
+Este documento não substitui o levantamento de trabalhos relacionados nem a aprovação do protocolo pelo orientador. Essas etapas continuam pendentes antes de tratar os registros como dados da pesquisa do TCC.
